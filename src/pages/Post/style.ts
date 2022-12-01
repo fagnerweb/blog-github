@@ -90,6 +90,13 @@ export const BoxArticle = styled.div`
     margin-bottom: 0px;
   }
 
+  pre {
+    background-color: ${(props) => props.theme['base-post']};
+    color: ${(props) => props.theme['base-text']};
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+
   img {
     max-width: 100%;
   }
