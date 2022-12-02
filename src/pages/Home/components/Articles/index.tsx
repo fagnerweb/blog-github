@@ -26,7 +26,7 @@ export function ArticlePost({
     <Container>
       <NavLink to={`posts/${slug}`}>
         <div className="title-group">
-          <h3>{title.length > 21 ? title.substring(0, 21) + '...' : title}</h3>
+          <h3>{title.length > 18 ? title.substring(0, 18) + '...' : title}</h3>
           <span>
             {formatDistanceToNow(new Date(postAt), {
               // addSuffix: true,
